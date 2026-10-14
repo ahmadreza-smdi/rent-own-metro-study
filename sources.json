@@ -1,0 +1,54 @@
+[
+  {
+    "file": "acs-2024-b25077.dat",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/1YRData/acsdt1y2024-b25077.dat",
+    "http_status": 200,
+    "bytes": 236001,
+    "sha256": "27120d5d8a5fd1c91619e86dad921179c8ae170d1fa5ee33ec357da4528c7cb3",
+    "content_type": null,
+    "retrieved_utc": "2026-10-14T20:05:49.408783+00:00"
+  },
+  {
+    "file": "acs-2024-geographies.txt",
+    "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/documentation/Geos20241YR.txt",
+    "http_status": 200,
+    "bytes": 1065169,
+    "sha256": "2155acb3c81672eee9b0bd971cca60cd77d8b66222b34973928f57c087ea4afe",
+    "content_type": "text/plain",
+    "retrieved_utc": "2026-10-14T20:05:53.504413+00:00"
+  },
+  {
+    "file": "census-public-access-policy.pdf",
+    "url": "https://www2.census.gov/foia/ds_policies/ds027.pdf",
+    "http_status": 200,
+    "bytes": 331504,
+    "sha256": "ce11f92f99d636b9a096b704bdf717112d724132f74bf8a9ec2a69b6ca6716c5",
+    "content_type": "application/pdf",
+    "retrieved_utc": "2026-10-14T20:05:55.043430+00:00"
+  },
+  {
+    "file": "hud-fy2027-fmr.xlsx",
+    "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2027/FY27_FMRs.xlsx",
+    "bytes": 375708,
+    "sha256": "423d1c6f8ef285a0fec63526768245396ec6fca0c9a086f21f709cc0ac89d1b7",
+    "retrieved_utc": "2026-10-14T20:13:05.931108+00:00",
+    "route": "native official download; waitForEvent timed out but fresh completed file was reconciled",
+    "native_modified_utc": "2026-10-14T20:09:03.181993+00:00"
+  },
+  {
+    "file": "hud-fy2027-methodology.pdf",
+    "url": "https://www.huduser.gov/portal/datasets/fmr/fmr2027/FY27-Public-FMR-Methodology.pdf",
+    "bytes": 539730,
+    "sha256": "c0051775c1badce234fe4eeb7612598c30c359cebf186a35dbed638783dfbd90",
+    "route": "visible official browser link downloadMedia",
+    "pages": 23
+  },
+  {
+    "file": "census-2023-cbsa-delineation.xlsx",
+    "url": "https://www2.census.gov/programs-surveys/metro-micro/geographies/reference-files/2023/delineation-files/list1_2023.xlsx",
+    "bytes": 143798,
+    "sha256": "952c4b1e78acbb54e6ec9412434b7602fedacbf021736351a63c181bdb753629",
+    "http_status": 200,
+    "retrieved_utc": "2026-10-14T20:48:34.526671+00:00"
+  }
+]

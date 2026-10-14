@@ -1,0 +1,10 @@
+{
+  "status": "illustrative assumptions chosen for sensitivity; not observed rates, local costs or a lending offer",
+  "currency": "USD",
+  "rent_bedrooms": 2,
+  "scenarios": [
+    {"id": "illustrative-financed", "label": "Illustrative financed case", "down_payment_fraction": 0.2, "annual_interest_rate": 0.065, "loan_years": 30, "occupied_months": 11, "management_fraction": 0.08, "property_tax_fraction": 0.01, "insurance_fraction": 0.004, "maintenance_reserve_fraction": 0.01, "monthly_utilities": 150, "monthly_hoa": 0, "annual_other_costs": 0, "annual_mortgage_insurance": 0},
+    {"id": "illustrative-cash", "label": "Illustrative cash purchase", "down_payment_fraction": 1, "annual_interest_rate": 0, "loan_years": 30, "occupied_months": 11, "management_fraction": 0.08, "property_tax_fraction": 0.01, "insurance_fraction": 0.004, "maintenance_reserve_fraction": 0.01, "monthly_utilities": 150, "monthly_hoa": 0, "annual_other_costs": 0, "annual_mortgage_insurance": 0},
+    {"id": "illustrative-stress", "label": "Illustrative higher-cost case", "down_payment_fraction": 0.2, "annual_interest_rate": 0.08, "loan_years": 30, "occupied_months": 10, "management_fraction": 0.1, "property_tax_fraction": 0.015, "insurance_fraction": 0.006, "maintenance_reserve_fraction": 0.015, "monthly_utilities": 250, "monthly_hoa": 100, "annual_other_costs": 0, "annual_mortgage_insurance": 0}
+  ]
+}

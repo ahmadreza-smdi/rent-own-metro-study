@@ -1,0 +1,102 @@
+{
+  "CITATION.cff": {
+    "bytes": 695,
+    "sha256": "14d91cd7aa1c29379393c2f7de8c4571f132d9ce6b189f6a2142102ab9ded2c5"
+  },
+  "LICENSE": {
+    "bytes": 1146,
+    "sha256": "9f9557a811501b3bcdd1ee8a7a49fe0663be884a2f376a5551508ddb85100dd7"
+  },
+  "README.md": {
+    "bytes": 3257,
+    "sha256": "d2cd898745d9952312b5fb527ebd0bee83fd718df0be2e8ac11ce7c48012f971"
+  },
+  "assets/fonts/OFL.txt": {
+    "bytes": 4719,
+    "sha256": "f2704cccf9bc0f01b871952fc001a3df4ceb727feca4e2c62736280eb7921e69"
+  },
+  "assets/fonts/sora-latin-wght.woff2": {
+    "bytes": 33652,
+    "sha256": "fa26406eeda9a3c6ec3d9ea8813c3045d6dc755e30c716d5c094e8ef43be5a7f"
+  },
+  "build_preview.py": {
+    "bytes": 13863,
+    "sha256": "fa904f935cf3a9fdf595b862cc6f59575145e08850725902ccede9b20ef7083e"
+  },
+  "build_scenarios.py": {
+    "bytes": 5829,
+    "sha256": "c1110e5c4b741243335ddb76ea4c8ccbd0cd81247a9e6f1b54aa4272543313ba"
+  },
+  "data-notes.md": {
+    "bytes": 4627,
+    "sha256": "fb0f2a56ac820112201c1123472ebce1d4375da3f24857a1fbc079cabbf1e595"
+  },
+  "model-method.md": {
+    "bytes": 5343,
+    "sha256": "c059d9700053824237419ddd064748a6bec699409b4f16526dc8fb1b872bb9d4"
+  },
+  "ownership_model.py": {
+    "bytes": 2900,
+    "sha256": "80d8949aaf421277438f613e0a4d750e6d10a9d8b391fbc5aea61d522f027f1b"
+  },
+  "prepare_sources.py": {
+    "bytes": 8184,
+    "sha256": "939dedf31bf0f3bb5c10b5959d298429710d8b6ab5dbe4cfd716b7bb8fffe4a8"
+  },
+  "quarterly-refresh.md": {
+    "bytes": 2649,
+    "sha256": "e56416747e47f80febc48479bc3453beb65877b7d2dcc09a1afb168a8cf32458"
+  },
+  "raw/acs-2024-b25077.dat": {
+    "bytes": 236001,
+    "sha256": "27120d5d8a5fd1c91619e86dad921179c8ae170d1fa5ee33ec357da4528c7cb3"
+  },
+  "raw/acs-2024-geographies.txt": {
+    "bytes": 1065169,
+    "sha256": "2155acb3c81672eee9b0bd971cca60cd77d8b66222b34973928f57c087ea4afe"
+  },
+  "raw/census-2023-cbsa-delineation.xlsx": {
+    "bytes": 143798,
+    "sha256": "952c4b1e78acbb54e6ec9412434b7602fedacbf021736351a63c181bdb753629"
+  },
+  "raw/census-public-access-policy.pdf": {
+    "bytes": 331504,
+    "sha256": "ce11f92f99d636b9a096b704bdf717112d724132f74bf8a9ec2a69b6ca6716c5"
+  },
+  "raw/hud-fy2027-fmr.xlsx": {
+    "bytes": 375708,
+    "sha256": "423d1c6f8ef285a0fec63526768245396ec6fca0c9a086f21f709cc0ac89d1b7"
+  },
+  "raw/hud-fy2027-methodology.pdf": {
+    "bytes": 539730,
+    "sha256": "c0051775c1badce234fe4eeb7612598c30c359cebf186a35dbed638783dfbd90"
+  },
+  "requirements.txt": {
+    "bytes": 16,
+    "sha256": "06d28d69e958deafb09f0a44fcae9b548f15e4debc14ebc39aad5f0934856fbf"
+  },
+  "scenarios.json": {
+    "bytes": 1393,
+    "sha256": "7c2ef2f746d9a48b2c4020e5cd9107710391054e47546d2c4a541a8ddd073734"
+  },
+  "sources.json": {
+    "bytes": 2271,
+    "sha256": "680f5e1f63479aa28d589f9fc5e4e36d2f58bf5eb06e606ce4739c7082f2ca75"
+  },
+  "study-model.mjs": {
+    "bytes": 2383,
+    "sha256": "130ac1705daf59d776d21c7d9a3a6675773c916731049f0dea6feb939e38d3bf"
+  },
+  "study-ui.mjs": {
+    "bytes": 8338,
+    "sha256": "8a621b13ffa81d03e0317e1847aacb73c2d6357b9f72049fbf6aea07a8ab1b90"
+  },
+  "study.css": {
+    "bytes": 3436,
+    "sha256": "34156727d166a71c51a7cffc8164d33f881ad379af10ee123877ee1ed44e2a1d"
+  },
+  "test_ownership_model.py": {
+    "bytes": 3189,
+    "sha256": "f113513e21e3f5b65cacf00a5d225373a24d7e408a5c43a86086039ac373d77e"
+  }
+}
