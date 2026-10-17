@@ -35,6 +35,8 @@ population has393metros and142micros; the study retains every available metro.
 detail and metro min/max scenario ranges. It does not average rent areas or
 match owner-stock median values to rental-property purchase prices.
 
+[Read one fictional cash budget step by step](docs/reading-a-budget.md): an illustrated explanation of receipts, costs, reserve and cash surplus. It adds no market observations.
+
 Read `model-method.md` and `data-notes.md` before interpreting any numbers.
 Every rate, utility allowance and operating cost is a chosen assumption, not an
 observed market value or offer. Surplus is a cash-budget measure after principal

@@ -1,0 +1,36 @@
+{
+  "kind": "fictional_teaching_example",
+  "source_case": "test_ownership_model.py:test_hand_calculated_budget_and_no_tax_double_count",
+  "price_assumption_usd": 100000,
+  "gross_monthly_rent_assumption_usd": 1000,
+  "assumptions": {
+    "id": "fictional-cash-budget-example",
+    "label": "Fictional cash-purchase budget example",
+    "down_payment_fraction": 1,
+    "annual_interest_rate": 0.065,
+    "loan_years": 30,
+    "occupied_months": 10,
+    "management_fraction": 0.1,
+    "property_tax_fraction": 0.01,
+    "insurance_fraction": 0.005,
+    "maintenance_reserve_fraction": 0.01,
+    "monthly_utilities": 100,
+    "monthly_hoa": 25,
+    "annual_other_costs": 200,
+    "annual_mortgage_insurance": 0
+  },
+  "model_outputs": {
+    "annual_receipts": 9000,
+    "annual_management": 900.0,
+    "annual_property_tax": 1000.0,
+    "annual_insurance": 500.0,
+    "annual_maintenance_reserve": 1000.0,
+    "annual_fixed_budget": 3000.0,
+    "annual_principal_interest": 0.0,
+    "annual_cash_surplus": 5100.0,
+    "break_even_gross_monthly_rent": 433.3333333333333,
+    "input_status": "illustrative"
+  },
+  "matplotlib_version": "3.11.2",
+  "actual_market_observation": false
+}

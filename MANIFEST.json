@@ -12,8 +12,8 @@
     "sha256": "9f9557a811501b3bcdd1ee8a7a49fe0663be884a2f376a5551508ddb85100dd7"
   },
   "README.md": {
-    "bytes": 4866,
-    "sha256": "8e306c718fd6a796abfd9822d3827a283431bd218e3ac9c3248bba9105b6a18a"
+    "bytes": 5045,
+    "sha256": "83c788075d9ffda22447ebf192aadb63de4da36116620c53172b2a7f89ae858e"
   },
   "assets/fonts/OFL.txt": {
     "bytes": 4719,
@@ -42,6 +42,30 @@
   "data-notes.md": {
     "bytes": 4627,
     "sha256": "fb0f2a56ac820112201c1123472ebce1d4375da3f24857a1fbc079cabbf1e595"
+  },
+  "docs/budget-example-FICTIONAL.alt.txt": {
+    "bytes": 599,
+    "sha256": "375310842c409d8a39d919519516580ed2230fd28338b4a5b09e0b579948892d"
+  },
+  "docs/budget-example-FICTIONAL.json": {
+    "bytes": 1183,
+    "sha256": "fda56878b757165e9d1e83f221eeb3c5555b3fb019b69e108301648d2047cf6d"
+  },
+  "docs/budget-example-FICTIONAL.png": {
+    "bytes": 103042,
+    "sha256": "560223f0a85518b3c639b3078000e010dfc2e09f20b7706764ccbd18c7ee85b1"
+  },
+  "docs/budget-example-FICTIONAL.svg": {
+    "bytes": 78256,
+    "sha256": "9c50d9dfbe33b318a0b9dab9c0a000590cf97639a785e8243aab6a5b81ebaaff"
+  },
+  "docs/reading-a-budget.md": {
+    "bytes": 2882,
+    "sha256": "dae50f55a0fa15914912876e70b26aba98bcccfd7f084147dde03e6915777c37"
+  },
+  "draw_budget_example.py": {
+    "bytes": 4266,
+    "sha256": "96bb58fec2314d9288cfa3c56d3ca9081e9bda7f30e3be725e2acd1486b7d5f8"
   },
   "model-method.md": {
     "bytes": 5343,
