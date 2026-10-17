@@ -1,7 +1,7 @@
 {
   ".github/workflows/check.yml": {
-    "bytes": 713,
-    "sha256": "279f07cc0463a5d32e849898512c17550dcb538e59e80a436f413f87cb236c5c"
+    "bytes": 758,
+    "sha256": "7e0239851d42cf19f37e9695dbfb7192ad282900d4b4727a316de816b82672fa"
   },
   "CITATION.cff": {
     "bytes": 723,
@@ -12,8 +12,8 @@
     "sha256": "9f9557a811501b3bcdd1ee8a7a49fe0663be884a2f376a5551508ddb85100dd7"
   },
   "README.md": {
-    "bytes": 5045,
-    "sha256": "83c788075d9ffda22447ebf192aadb63de4da36116620c53172b2a7f89ae858e"
+    "bytes": 5527,
+    "sha256": "cd24ee72d172f0c07ef20dabc74c190220e7c11716f17d28ad0d38b7f3719dc3"
   },
   "assets/fonts/OFL.txt": {
     "bytes": 4719,
@@ -72,8 +72,8 @@
     "sha256": "c059d9700053824237419ddd064748a6bec699409b4f16526dc8fb1b872bb9d4"
   },
   "ownership_model.py": {
-    "bytes": 2900,
-    "sha256": "80d8949aaf421277438f613e0a4d750e6d10a9d8b391fbc5aea61d522f027f1b"
+    "bytes": 3446,
+    "sha256": "4b10368b591e160608e90e3944613932ff551fef68002488bd10dd9589663c81"
   },
   "prepare_sources.py": {
     "bytes": 8184,
@@ -120,8 +120,8 @@
     "sha256": "680f5e1f63479aa28d589f9fc5e4e36d2f58bf5eb06e606ce4739c7082f2ca75"
   },
   "study-model.mjs": {
-    "bytes": 2383,
-    "sha256": "130ac1705daf59d776d21c7d9a3a6675773c916731049f0dea6feb939e38d3bf"
+    "bytes": 2839,
+    "sha256": "2fa926a69528cbc9c9fb0abdd9bfbecc02bcaae1e62833d1d302881bedef9446"
   },
   "study-ui.mjs": {
     "bytes": 8338,
@@ -131,8 +131,16 @@
     "bytes": 3436,
     "sha256": "34156727d166a71c51a7cffc8164d33f881ad379af10ee123877ee1ed44e2a1d"
   },
+  "test_model_numeric.mjs": {
+    "bytes": 1450,
+    "sha256": "f8a22d6da5edc48dbe9d85fdadc4945ceb2a92f647b312c349b1dcdd0213eda1"
+  },
   "test_ownership_model.py": {
     "bytes": 3189,
     "sha256": "f113513e21e3f5b65cacf00a5d225373a24d7e408a5c43a86086039ac373d77e"
+  },
+  "test_ownership_numeric.py": {
+    "bytes": 1782,
+    "sha256": "c1f2bdbf84b765e220863562bde86484bdecfb3e32e0080a872d12a5ad0c716d"
   }
 }

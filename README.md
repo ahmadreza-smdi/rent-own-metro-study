@@ -47,6 +47,15 @@ Source vintages: HUD FY2027; ACS2024 one-year B25077; July2023 OMB/Census county
 delineation. Edition year2026 is the analysis edition. Known St.Louis statutory
 partial-county differences are explicitly labelled; new mismatches stop the build.
 
+## Numeric range validation on main
+
+The main branch rejects calculations whose finite inputs would produce
+nonfinite results, and rejects an unrepresentable loan period or a positive
+occupancy whose budget denominator underflows to zero. It reports an error
+instead of returning infinity or silently treating that occupancy as zero.
+Normal fixed study scenarios and their data are unchanged. This validation
+is newer than the v1.0.0 release archive; that archive is not replaced.
+
 ## Check a repeated rebuild
 
 Run `python3 -B check_rebuild.py` after installing the dependency. It checks the

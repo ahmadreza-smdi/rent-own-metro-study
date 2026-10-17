@@ -7,7 +7,7 @@ import math
 def payment(principal, annual_rate, years):
     if not all(math.isfinite(v) for v in (principal, annual_rate, years)):
         raise ValueError("Nonfinite loan input")
-    if principal < 0 or annual_rate < 0 or years <= 0 or int(years * 12) != years * 12:
+    if principal < 0 or annual_rate < 0 or years <= 0 or not math.isfinite(years * 12) or int(years * 12) != years * 12:
         raise ValueError("Invalid loan input")
     n = int(years * 12)
     if principal == 0:
@@ -15,7 +15,10 @@ def payment(principal, annual_rate, years):
     r = annual_rate / 12
     if r == 0:
         return principal / n
-    return principal * r / -math.expm1(-n * math.log1p(r))
+    result = principal * r / -math.expm1(-n * math.log1p(r))
+    if not math.isfinite(result):
+        raise ValueError("Loan calculation exceeds numeric range; revise inputs")
+    return result
 
 
 def evaluate(price, gross_monthly_rent, s):
@@ -42,11 +45,18 @@ def evaluate(price, gross_monthly_rent, s):
     fixed = property_tax + insurance + reserve + 12 * s["monthly_hoa"] + s["annual_other_costs"] + s["annual_mortgage_insurance"]
     debt = payment(price * (1 - s["down_payment_fraction"]), s["annual_interest_rate"], s["loan_years"]) * 12
     denom = s["occupied_months"] * (1 - s["management_fraction"])
+    if denom == 0 and s["occupied_months"] != 0:
+        raise ValueError("Cash-budget calculation exceeds numeric range; revise inputs")
     threshold = s["monthly_utilities"] + (fixed + debt) / denom if denom else None
     surplus = receipts - management - fixed - debt
-    return {"annual_receipts": receipts, "annual_management": management,
+    result = {"annual_receipts": receipts, "annual_management": management,
             "annual_property_tax": property_tax, "annual_insurance": insurance,
             "annual_maintenance_reserve": reserve, "annual_fixed_budget": fixed,
             "annual_principal_interest": debt, "annual_cash_surplus": surplus,
             "break_even_gross_monthly_rent": threshold,
             "input_status": "illustrative"}
+    if any(value is not None and not math.isfinite(value)
+           for key, value in result.items() if key != "input_status"):
+        raise ValueError("Cash-budget calculation exceeds numeric range; revise inputs")
+    return result
+
