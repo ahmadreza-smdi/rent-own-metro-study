@@ -54,6 +54,13 @@ It compares every generated file's bytes between those two runs without
 writing generated outputs into your checkout. GitHub Actions runs this check
 and the model tests on Ubuntu with Python 3.10 and 3.13.
 
+With Node.js 18+ available, `python3 -B check_rebuild.py --javascript` also
+compares the shipped JavaScript calculation module against all rebuilt Python
+metro and HUD-area scenario rows. It checks the fixed scenarios, including
+cash purchase, using a USD 0.000001 absolute tolerance for CSV rounding. Missing
+or duplicate rows fail the check. GitHub Actions includes this comparison;
+it does not run the interactive page in a browser.
+
 This checks repeatability within each runtime, not agreement between runtimes,
 browser interaction, geographic equivalence or real investment outcomes.
 The manifest detects drift relative to its recorded hashes; it is not a

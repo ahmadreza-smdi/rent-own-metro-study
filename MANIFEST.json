@@ -1,7 +1,7 @@
 {
   ".github/workflows/check.yml": {
-    "bytes": 700,
-    "sha256": "ec0c23feb1a8357877c0e7aaf1acf00dc3ba22945e853d78bfbe37d8c274133b"
+    "bytes": 713,
+    "sha256": "279f07cc0463a5d32e849898512c17550dcb538e59e80a436f413f87cb236c5c"
   },
   "CITATION.cff": {
     "bytes": 723,
@@ -12,8 +12,8 @@
     "sha256": "9f9557a811501b3bcdd1ee8a7a49fe0663be884a2f376a5551508ddb85100dd7"
   },
   "README.md": {
-    "bytes": 4429,
-    "sha256": "2da0cd3763a89d78b812e874a05f67fe761abc4687166980eec51ddf079557da"
+    "bytes": 4866,
+    "sha256": "8e306c718fd6a796abfd9822d3827a283431bd218e3ac9c3248bba9105b6a18a"
   },
   "assets/fonts/OFL.txt": {
     "bytes": 4719,
@@ -31,9 +31,13 @@
     "bytes": 5829,
     "sha256": "c1110e5c4b741243335ddb76ea4c8ccbd0cd81247a9e6f1b54aa4272543313ba"
   },
+  "check_model_parity.mjs": {
+    "bytes": 2901,
+    "sha256": "11f1f615a34b9fbf95ea221012a6acbf9c2f3190cbff3649d438e3452fcb7e95"
+  },
   "check_rebuild.py": {
-    "bytes": 2051,
-    "sha256": "9e618e65106dbf4962b1bc83ff8f7755698da54b2498312af46bf8442b9093e9"
+    "bytes": 2904,
+    "sha256": "9334a83c32552ce67c59cd4ca7a45afe431611d73dc33bff4220420a8304f47b"
   },
   "data-notes.md": {
     "bytes": 4627,

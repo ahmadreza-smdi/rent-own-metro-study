@@ -1,5 +1,7 @@
 """Rebuild twice in a disposable copy; compare bytes, not economic validity."""
 from pathlib import Path
+import argparse
+import csv
 import hashlib
 import json
 import shutil
@@ -19,6 +21,9 @@ def output_hashes(root):
 
 
 def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--javascript", action="store_true", help="Also compare the JS model with Python CSV outputs; requires Node.js 18+")
+    args = parser.parse_args()
     manifest = json.loads((ROOT / 'MANIFEST.json').read_text())
     for name, expected in manifest.items():
         data = (ROOT / name).read_bytes()
@@ -38,6 +43,15 @@ def main():
             snapshots.append(output_hashes(target))
         if snapshots[0] != snapshots[1]:
             raise ValueError('Repeated rebuild output bytes differ')
+        if args.javascript:
+            def rows(name):
+                with (target / 'model' / name).open(encoding='utf-8', newline='') as stream:
+                    return list(csv.DictReader(stream))
+            payload = {'data': json.loads((target / 'web/studies/rent-own-2026/study-data.json').read_text()),
+                       'summary': rows('metro-scenarios.csv'),
+                       'detail': rows('hud-area-scenarios.csv')}
+            subprocess.run(['node', 'check_model_parity.mjs'], cwd=target, check=True,
+                           input=json.dumps(payload), text=True)
         print(json.dumps({'status': 'PASS', 'manifest_files_checked': len(manifest),
                           'repeated_output_files': len(snapshots[0]),
                           'same_runtime_rebuilds': 2,
