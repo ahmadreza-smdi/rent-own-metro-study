@@ -53,8 +53,8 @@ Agency attribution does not imply endorsement. The manifest records every
 included file's hash; it proves bytes, not methodological correctness.
 
 `CITATION.cff` provides version1.0.0 and the public study URL. The repository is
-https://github.com/ahmadreza-smdi/rent-own-metro-study. Add a release date or DOI
-only when it actually exists. See `quarterly-refresh.md`
+https://github.com/ahmadreza-smdi/rent-own-metro-study. Version 1.0.0 was
+[released on 15 October 2026](https://github.com/ahmadreza-smdi/rent-own-metro-study/releases/tag/v1.0.0); no DOI is assigned. See `quarterly-refresh.md`
 for the source/coverage/method/release refresh procedure.
 
 Author: [Ahmadreza Samadi](https://a-samadi.com/about.html), Dubai-based technology

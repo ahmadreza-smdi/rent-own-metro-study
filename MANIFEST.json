@@ -1,15 +1,15 @@
 {
   "CITATION.cff": {
-    "bytes": 695,
-    "sha256": "14d91cd7aa1c29379393c2f7de8c4571f132d9ce6b189f6a2142102ab9ded2c5"
+    "bytes": 723,
+    "sha256": "7f1d70742a163efe28178a256f77bbfe0c9a323ca3976c221be06bb8992658bf"
   },
   "LICENSE": {
     "bytes": 1146,
     "sha256": "9f9557a811501b3bcdd1ee8a7a49fe0663be884a2f376a5551508ddb85100dd7"
   },
   "README.md": {
-    "bytes": 3257,
-    "sha256": "d2cd898745d9952312b5fb527ebd0bee83fd718df0be2e8ac11ce7c48012f971"
+    "bytes": 3346,
+    "sha256": "f7143a37d3ff2d2183a54ef12af3ced548a2f0c44d448464226e4d74f8da63db"
   },
   "assets/fonts/OFL.txt": {
     "bytes": 4719,
