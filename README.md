@@ -3,11 +3,17 @@
 Reproducible source for “Where does rent cover the cost of owning?
 2026 metro edition.” Results are illustrative cash-budget scenarios, not observed investment returns.
 
+[Open the interactive study](https://a-samadi.com/studies/rent-own-2026/) to inspect the scenarios without installing Python.
+
 ## Reproduce offline
 
 Python3.10+ and `openpyxl==3.1.5` are required. The included source files are
 public federal outputs with original hashes and URLs in `sources.json`.
 No API key, account or private provider dataset is required.
+
+Before the offline steps, install the pinned dependency with
+`python3 -m pip install -r requirements.txt`. This setup may need network access;
+the reproduction commands below use the included source files offline.
 
 ```sh
 python3 prepare_sources.py
