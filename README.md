@@ -77,6 +77,19 @@ browser interaction, geographic equivalence or real investment outcomes.
 The manifest detects drift relative to its recorded hashes; it is not a
 signature or independent source certification.
 
+## Scenario-link state
+
+After creating a scenario link, changing an assumption, starting case, search
+or selected metro hides and clears that old generated link. Create a new link
+to share the current inputs and selection. A malformed incoming link still
+shows its restoration warning on initial load.
+
+Run `node test_share_state.mjs` with Node.js 18+ for eight scoped UI-state
+regressions. They execute the actual UI module with a fictional DOM and model
+fixture; they do not certify browser rendering, accessibility or financial
+formulas. Both GitHub Actions matrix jobs run these checks. This source fix is
+newer than the frozen v1.0.0 archive; the personal website update is separate.
+
 ## Files and rights
 
 The package allowlist contains code, method/source notes, citation metadata,
