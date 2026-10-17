@@ -45,6 +45,20 @@ Source vintages: HUD FY2027; ACS2024 one-year B25077; July2023 OMB/Census county
 delineation. Edition year2026 is the analysis edition. Known St.Louis statutory
 partial-county differences are explicitly labelled; new mismatches stop the build.
 
+## Check a repeated rebuild
+
+Run `python3 -B check_rebuild.py` after installing the dependency. It checks the
+package manifest, copies the included files into a temporary directory, and
+runs source preparation, scenario calculation and preview generation twice.
+It compares every generated file's bytes between those two runs without
+writing generated outputs into your checkout. GitHub Actions runs this check
+and the model tests on Ubuntu with Python 3.10 and 3.13.
+
+This checks repeatability within each runtime, not agreement between runtimes,
+browser interaction, geographic equivalence or real investment outcomes.
+The manifest detects drift relative to its recorded hashes; it is not a
+signature or independent source certification.
+
 ## Files and rights
 
 The package allowlist contains code, method/source notes, citation metadata,

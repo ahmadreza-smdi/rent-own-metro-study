@@ -1,4 +1,8 @@
 {
+  ".github/workflows/check.yml": {
+    "bytes": 700,
+    "sha256": "ec0c23feb1a8357877c0e7aaf1acf00dc3ba22945e853d78bfbe37d8c274133b"
+  },
   "CITATION.cff": {
     "bytes": 723,
     "sha256": "7f1d70742a163efe28178a256f77bbfe0c9a323ca3976c221be06bb8992658bf"
@@ -8,8 +12,8 @@
     "sha256": "9f9557a811501b3bcdd1ee8a7a49fe0663be884a2f376a5551508ddb85100dd7"
   },
   "README.md": {
-    "bytes": 3688,
-    "sha256": "34213ae2be062e56d6598a69f99b826df0b8c23ada8bb60e6efa4eb4ba7a329d"
+    "bytes": 4429,
+    "sha256": "2da0cd3763a89d78b812e874a05f67fe761abc4687166980eec51ddf079557da"
   },
   "assets/fonts/OFL.txt": {
     "bytes": 4719,
@@ -26,6 +30,10 @@
   "build_scenarios.py": {
     "bytes": 5829,
     "sha256": "c1110e5c4b741243335ddb76ea4c8ccbd0cd81247a9e6f1b54aa4272543313ba"
+  },
+  "check_rebuild.py": {
+    "bytes": 2051,
+    "sha256": "9e618e65106dbf4962b1bc83ff8f7755698da54b2498312af46bf8442b9093e9"
   },
   "data-notes.md": {
     "bytes": 4627,
