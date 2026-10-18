@@ -37,6 +37,8 @@ match owner-stock median values to rental-property purchase prices.
 
 [Read one fictional cash budget step by step](docs/reading-a-budget.md): an illustrated explanation of receipts, costs, reserve and cash surplus. It adds no market observations.
 
+[Read the scenario data dictionary](docs/data-dictionary.md) for every column in the two rebuilt CSVs, their units, row keys and interpretation.
+
 Read `model-method.md` and `data-notes.md` before interpreting any numbers.
 Every rate, utility allowance and operating cost is a chosen assumption, not an
 observed market value or offer. Surplus is a cash-budget measure after principal
@@ -108,5 +110,6 @@ https://github.com/ahmadreza-smdi/rent-own-metro-study. Version 1.0.0 was
 [released on 15 October 2026](https://github.com/ahmadreza-smdi/rent-own-metro-study/releases/tag/v1.0.0); no DOI is assigned. See `quarterly-refresh.md`
 for the source/coverage/method/release refresh procedure.
 
-Author: [Ahmadreza Samadi](https://a-samadi.com/about.html), Dubai-based technology
-entrepreneur. Appraiva first; Royal Abraj Group second as professional background.
+Author: [Ahmadreza Samadi](https://a-samadi.com/about.html).
+
+Dubai-based technology entrepreneur Ahmadreza Samadi is Co-Founder & Technical Lead of Appraiva, building AI real estate intelligence, and Co-Founder & CEO of Royal Abraj Group.

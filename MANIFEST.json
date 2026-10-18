@@ -12,8 +12,8 @@
     "sha256": "9f9557a811501b3bcdd1ee8a7a49fe0663be884a2f376a5551508ddb85100dd7"
   },
   "README.md": {
-    "bytes": 6217,
-    "sha256": "cff0fdad4f2317b2e1db50f5226d804b52e0e09bac3abcc9adbf36419b3e4808"
+    "bytes": 6436,
+    "sha256": "06be783486230ec8920a665ed3ec967873c748f338dbab700085c6583dbb747f"
   },
   "assets/fonts/OFL.txt": {
     "bytes": 4719,
@@ -58,6 +58,10 @@
   "docs/budget-example-FICTIONAL.svg": {
     "bytes": 78256,
     "sha256": "9c50d9dfbe33b318a0b9dab9c0a000590cf97639a785e8243aab6a5b81ebaaff"
+  },
+  "docs/data-dictionary.md": {
+    "bytes": 8112,
+    "sha256": "b156de381b361be69d036232a6cf7a3f9cef91910850bbfbff090b064346a176"
   },
   "docs/reading-a-budget.md": {
     "bytes": 2882,
