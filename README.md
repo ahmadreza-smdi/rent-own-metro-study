@@ -3,6 +3,8 @@
 Reproducible source for “Where does rent cover the cost of owning?
 2026 metro edition.” Results are illustrative cash-budget scenarios, not observed investment returns.
 
+[![Rebuild checks](https://github.com/ahmadreza-smdi/rent-own-metro-study/actions/workflows/check.yml/badge.svg?branch=main)](https://github.com/ahmadreza-smdi/rent-own-metro-study/actions/workflows/check.yml)
+
 [Open the interactive study](https://a-samadi.com/studies/rent-own-2026/) to inspect the scenarios without installing Python.
 
 ## Reproduce offline
