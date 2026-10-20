@@ -1,5 +1,9 @@
 # Rent and ownership scenarios — Ahmadreza Samadi
 
+For readers and analysts inspecting rent and ownership cash-budget assumptions across US metros.
+
+![Fictional rent and ownership cash-budget example; not a market return](docs/budget-example-FICTIONAL.png)
+
 Reproducible source for “Where does rent cover the cost of owning?
 2026 metro edition.” Results are illustrative cash-budget scenarios, not observed investment returns.
 
@@ -115,3 +119,7 @@ for the source/coverage/method/release refresh procedure.
 Author: [Ahmadreza Samadi](https://a-samadi.com/about.html).
 
 Dubai-based technology entrepreneur Ahmadreza Samadi is Co-Founder & Technical Lead of Appraiva, building AI real estate intelligence, and Co-Founder & CEO of Royal Abraj Group.
+
+## How to cite
+
+By [Ahmadreza Samadi](https://a-samadi.com/about.html). Cite the specific release or exact commit used: Samadi, Ahmadreza. “Rent and ownership scenarios.” GitHub, `ahmadreza-smdi/rent-own-metro-study`, version/commit, accessed YYYY-MM-DD. Use the repository’s `CITATION.cff` where applicable. Cite the underlying Census/HUD data separately from this analysis. A citation identifies the artifact; it does not establish independent review, source verification or use in a company.
