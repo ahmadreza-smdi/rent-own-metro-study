@@ -50,7 +50,8 @@ function restoreLink(){
  if(!location.hash.startsWith('#scenario='))return;
  try{const saved=JSON.parse(decodeURIComponent(location.hash.slice(10)));
  if(saved.version!==1 || !saved.inputs || !keys.every(k=>Number.isFinite(saved.inputs[k])))throw Error('Unsupported scenario link.');
- const s={...current,...saved.inputs};const target=data.metros.find(m=>m.cbsa===saved.cbsa)||selected;summarize(target,s);setCase(s);
+ const target=data.metros.find(m=>m.cbsa===saved.cbsa);if(!target)throw Error('Unknown metro in scenario link.');
+ const s={...current,...saved.inputs};summarize(target,s);setCase(s);
  if(typeof saved.search==='string')$('search').value=saved.search.slice(0,150);
  if(typeof saved.cbsa==='string')selected=data.metros.find(m=>m.cbsa===saved.cbsa)||selected;
  }catch(e){$('share-status').textContent='This scenario link could not be restored; the initial case is shown.';}

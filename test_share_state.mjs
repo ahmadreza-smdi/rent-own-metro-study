@@ -47,4 +47,14 @@ test('selecting another metro invalidates link and rebuild captures new metro',(
 });
 test('malformed inbound link notice survives initial render',()=>{const f=fixture('#scenario=invalid');assert.match(f.nodes.get('share-status').textContent,/could not be restored/);});
 test('valid inbound scenario restores without an old output link',()=>{const hash='#scenario='+encodeURIComponent(JSON.stringify({version:1,inputs:{occupied_months:7,management_fraction:.2},cbsa:'1',search:''}));const f=fixture(hash);assert.equal(f.nodes.get('occupied_months').value,'7');cleared(f);f.click('share');assert.equal(JSON.parse(decodeURIComponent(f.nodes.get('share-url').value.split('#scenario=')[1])).cbsa,'1');});
+for(const cbsa of ['missing',null,1,undefined,'']){
+ test('unknown or invalid metro is rejected: '+String(cbsa),()=>{
+  const hash='#scenario='+encodeURIComponent(JSON.stringify({version:1,inputs:{occupied_months:7,management_fraction:.2},cbsa,search:'B'}));
+  const f=fixture(hash);
+  assert.match(f.nodes.get('share-status').textContent,/could not be restored/);
+  assert.equal(f.nodes.get('occupied_months').value,'10');
+  assert.equal(f.nodes.get('management_fraction').value,'10');
+  assert.equal(f.nodes.get('search').value,'');assert.equal(f.nodes.get('selected-name').textContent,'A');
+ });
+}
 console.log(`${passed} scoped UI-state tests passed; fictional DOM/model fixture, not browser or financial-model certification.`);

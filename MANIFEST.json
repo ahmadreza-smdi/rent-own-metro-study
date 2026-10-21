@@ -128,8 +128,8 @@
     "sha256": "2fa926a69528cbc9c9fb0abdd9bfbecc02bcaae1e62833d1d302881bedef9446"
   },
   "study-ui.mjs": {
-    "bytes": 8551,
-    "sha256": "08cdc74de37d6ff933df7b0f3ff36b9854c5aa336be39e3447c0e8a28d3d99e9"
+    "bytes": 8601,
+    "sha256": "0a99bd14b00b80e3184ef31b33581a6617f70dc9108f8b2d8248a99dbcc9d25c"
   },
   "study.css": {
     "bytes": 3436,
@@ -148,7 +148,7 @@
     "sha256": "c1f2bdbf84b765e220863562bde86484bdecfb3e32e0080a872d12a5ad0c716d"
   },
   "test_share_state.mjs": {
-    "bytes": 4986,
-    "sha256": "a3aae6588f2a4082557aa2286823eba15f4a04bc5e3cbd61fcf7052820ff54ef"
+    "bytes": 5587,
+    "sha256": "d13150b535260bbe3131dd3fbc860df7f6062c1c41145945c7ff84ddac1e5687"
   }
 }
